@@ -43,3 +43,5 @@ The commands are settled as the code arrives.
 4. If a library was added or the security headers changed: the end-to-end
    test under the CSP passes in at least one browser.
 5. If user-visible text changed: every language file has the same keys.
+6. If Markdown or the `shared/` pointer changed:
+   `python3 shared/scripts/check_links.py .` prints nothing.
